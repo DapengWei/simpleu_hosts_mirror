@@ -1,0 +1,6 @@
+#!/bin/sh
+rm /jffs/hostsx/hosts
+curl -k -o /jffs/hostsx/hosts https://raw.githubusercontent.com/DapengWei/simpleu_hosts_mirror/master/hosts
+sleep 2
+stopservice dnsmasq
+startservice dnsmasq
