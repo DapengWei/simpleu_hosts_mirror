@@ -21,7 +21,7 @@ class MyHTTPSHandler(urllib2.HTTPSHandler):
   def https_open(self,req):
     return self.do_open(MyHTTPSConnection,req)
 
-proxy_handler = urllib2.ProxyHandler({'http': '127.0.0.1:1984'})
+proxy_handler = urllib2.ProxyHandler({'http': '10.241.10.132:1984'})
 
 opener = urllib2.build_opener(proxy_handler,MyHTTPHandler)
 urllib2.install_opener(opener)
