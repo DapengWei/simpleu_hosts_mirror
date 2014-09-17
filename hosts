@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201409112040
+;version=201409171359
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -46,6 +46,10 @@ fe80::1%lo0	localhost
 59.151.106.253 www.operachina.com
 #GoogleCode
 203.208.46.200 haoutil.googlecode.com
+74.125.203.82 haoutil.googlecode.com
+173.194.72.82 haoutil.googlecode.com
+74.125.203.82 simpleu.googlecode.com
+173.194.72.82 simpleu.googlecode.com
 203.208.46.200 simpleu.googlecode.com
 #Soutong
 76.164.232.68 5isotoi5.org
@@ -3777,6 +3781,7 @@ fe80::1%lo0	localhost
 127.0.0.1 video.cooguo.com
 127.0.0.1 www.cooguo.com
 #cocounion
+127.0.0.1 service.cocounion.com
 127.0.0.1 stats.cocounion.com
 127.0.0.1 www.cocounion.com
 #Crispadvertising
@@ -7821,3 +7826,4 @@ fe80::1%lo0	localhost
 127.0.0.1 www.smtown.com
 127.0.0.1 songshuhui.net
 127.0.0.1 www.huanqiu.com
+127.0.0.1 www.igao7.com
