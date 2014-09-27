@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201409221714
+;version=201409251009
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -4279,10 +4279,6 @@ fe80::1%lo0	localhost
 127.0.0.1 kuzai.cooguo.com
 127.0.0.1 video.cooguo.com
 127.0.0.1 www.cooguo.com
-#cocounion
-127.0.0.1 service.cocounion.com
-127.0.0.1 stats.cocounion.com
-127.0.0.1 www.cocounion.com
 #Crispadvertising
 127.0.0.1 api.crispwireless.com
 127.0.0.1 cdn1.crispadvertising.com
