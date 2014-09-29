@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201409251009
+;version=201409281927
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -163,8 +163,8 @@ fe80::1%lo0	localhost
 66.155.9.238 stats.wordpress.com
 66.155.9.238 wpcom.wordpress.com
 66.155.9.238 lucifr.wordpress.com
-72.233.2.58 botd2.wordpress.com
-72.233.2.58 r-login.wordpress.com
+192.0.81.250  botd2.wordpress.com
+192.0.81.250  r-login.wordpress.com
 74.112.184.73 box.com
 74.112.184.70 app.box.com
 134.170.108.26 onedrive.live.com
@@ -172,6 +172,10 @@ fe80::1%lo0	localhost
 134.170.108.224 storage.live.com
 108.160.165.147 dropbox.com
 108.160.165.147 www.dropbox.com
+108.160.166.144 api.dropbox.com
+108.160.166.126 api-notify.dropbox.com
+54.243.226.170 api-content.dropbox.com
+108.160.166.61 api-d.dropbox.com
 108.160.166.140 client-lb.dropbox.com
 108.160.172.65 block.dropbox.com
 108.160.165.253 d.dropbox.com
@@ -1620,12 +1624,12 @@ fe80::1%lo0	localhost
 23.44.161.224 platform.twitter.com
 23.44.161.224 preview.cdn.twitter.com
 199.16.158.18 image-proxy-origin.twimg.com
-199.96.57.17 syndication.twitter.com
-199.96.57.17 syndication.twimg.com
-199.96.57.17 cdn.syndication.twitter.com
-199.96.57.17 cdn.syndication.twimg.com
-199.96.57.17 syndication-o.twitter.com
-199.96.57.17 syndication-o.twimg.com
+199.59.150.46 syndication.twitter.com
+199.59.150.46 syndication.twimg.com
+199.59.150.46 cdn.syndication.twitter.com
+199.59.150.46 cdn.syndication.twimg.com
+199.59.150.46 syndication-o.twitter.com
+199.59.150.46 syndication-o.twimg.com
 117.18.237.139 a0.twimg.com
 117.18.237.139 a1.twimg.com
 117.18.237.139 p.twimg.com
@@ -1646,23 +1650,6 @@ fe80::1%lo0	localhost
 199.16.158.20 upload.twitter.com
 199.16.158.10 dev.twitter.com
 199.16.158.81 userstream.twitter.com
-209.17.68.209 oi40.tinypic.com
-209.17.68.209 oi41.tinypic.com
-209.17.68.209 oi42.tinypic.com
-209.17.68.209 oi43.tinypic.com
-209.17.68.209 oi44.tinypic.com
-209.17.68.209 oi45.tinypic.com
-209.17.68.209 oi46.tinypic.com
-209.17.68.209 oi47.tinypic.com
-209.17.68.209 oi48.tinypic.com
-209.17.68.209 oi49.tinypic.com
-209.17.68.209 oi50.tinypic.com
-209.17.68.209 oi51.tinypic.com
-209.17.68.209 oi52.tinypic.com
-209.17.68.209 oi53.tinypic.com
-209.17.68.209 oi54.tinypic.com
-209.17.68.209 oi55.tinypic.com
-209.17.68.209 oi56.tinypic.com
 96.127.160.130 twitpic.com
 96.127.160.130 web1.twitpic.com
 96.127.160.130 web2.twitpic.com
@@ -1707,7 +1694,7 @@ fe80::1%lo0	localhost
 61.213.189.98 b.static.ak.facebook.com
 23.5.157.177 s-static.ak.fbcdn.net
 184.26.194.110 s-static.ak.facebook.com
-69.171.247.22 s-static.facebook.com
+69.171.235.9 s-static.facebook.com
 61.213.189.98 static.ak.facebook.com
 61.213.189.113 creative.ak.fbcdn.net
 23.3.68.113 external.ak.fbcdn.net
@@ -2635,17 +2622,18 @@ fe80::1%lo0	localhost
 210.242.125.98 t5.gstatic.com
 210.242.125.98 t6.gstatic.com
 210.242.125.98 t7.gstatic.com
-64.233.185.113 apis.google.com
-64.233.185.113 talkgadget.google.com
 74.125.207.189 chromoting-host.talkgadget.google.com
 74.125.207.189 chromoting-oauth.talkgadget.google.com
 74.125.207.189 chromoting-client.talkgadget.google.com
 74.125.207.189 wildcard-talkgadget.l.google.com
 64.233.168.17 mail.google.com
-64.233.185.112 adwords.google.com
+64.233.185.101 history.google.com
 64.233.185.101 plus.google.com
 64.233.185.101 plus.url.google.com
 64.233.185.101 plusone.google.com
+64.233.185.112 adwords.google.com
+64.233.185.113 apis.google.com
+64.233.185.113 talkgadget.google.com
 64.233.185.121 www.gwtproject.org
 64.233.185.82 www.googlesource.comï»?
 64.233.185.82 googlesource.com
@@ -2654,6 +2642,12 @@ fe80::1%lo0	localhost
 64.233.185.82 gerrit.googlesource.com
 64.233.185.82 kernel.googlesource.com
 64.233.185.82 gwt.googlesource.com
+74.125.230.127 stun.l.google.com
+74.125.230.127 alt1.stun.l.google.com
+74.125.230.127 alt2.stun.l.google.com
+74.125.230.127 alt3.stun.l.google.com
+74.125.230.127 alt4.stun.l.google.com
+74.125.230.127 alt5.stun.l.google.com
 74.125.207.191 www.blogger.com
 74.125.207.132 google-opensource.blogspot.com
 74.125.207.132 googleblog.blogspot.com
@@ -2674,12 +2668,6 @@ fe80::1%lo0	localhost
 210.242.125.98 developer.android.com
 210.242.125.98 market.android.com
 210.242.125.98 source.android.com
-74.125.230.127 stun.l.google.com
-74.125.230.127 alt1.stun.l.google.com
-74.125.230.127 alt2.stun.l.google.com
-74.125.230.127 alt3.stun.l.google.com
-74.125.230.127 alt4.stun.l.google.com
-74.125.230.127 alt5.stun.l.google.com
 210.242.125.98 wallet.google.com
 210.242.125.98 answers.google.com
 210.242.125.98 admin.google.com
@@ -4000,7 +3988,6 @@ fe80::1%lo0	localhost
 127.0.0.1 bar.baidu.com
 127.0.0.1 dl.client.baidu.com
 127.0.0.1 dl.p2sp.baidu.com
-127.0.0.1 dl.ops.baidu.com
 127.0.0.1 dl.youqian.baidu.com
 127.0.0.1 gamebox.baidu.com
 127.0.0.1 hao123union.baidu.com
