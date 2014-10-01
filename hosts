@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201409281927
+;version=201409301640
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -2622,11 +2622,8 @@ fe80::1%lo0	localhost
 210.242.125.98 t5.gstatic.com
 210.242.125.98 t6.gstatic.com
 210.242.125.98 t7.gstatic.com
-74.125.207.189 chromoting-host.talkgadget.google.com
-74.125.207.189 chromoting-oauth.talkgadget.google.com
-74.125.207.189 chromoting-client.talkgadget.google.com
-74.125.207.189 wildcard-talkgadget.l.google.com
-64.233.168.17 mail.google.com
+64.233.185.17 mail.google.com
+210.242.125.98 play.google.com
 64.233.185.101 history.google.com
 64.233.185.101 plus.google.com
 64.233.185.101 plus.url.google.com
@@ -2642,12 +2639,10 @@ fe80::1%lo0	localhost
 64.233.185.82 gerrit.googlesource.com
 64.233.185.82 kernel.googlesource.com
 64.233.185.82 gwt.googlesource.com
-74.125.230.127 stun.l.google.com
-74.125.230.127 alt1.stun.l.google.com
-74.125.230.127 alt2.stun.l.google.com
-74.125.230.127 alt3.stun.l.google.com
-74.125.230.127 alt4.stun.l.google.com
-74.125.230.127 alt5.stun.l.google.com
+74.125.207.189 chromoting-host.talkgadget.google.com
+74.125.207.189 chromoting-oauth.talkgadget.google.com
+74.125.207.189 chromoting-client.talkgadget.google.com
+74.125.207.189 wildcard-talkgadget.l.google.com
 74.125.207.191 www.blogger.com
 74.125.207.132 google-opensource.blogspot.com
 74.125.207.132 googleblog.blogspot.com
@@ -2658,7 +2653,12 @@ fe80::1%lo0	localhost
 74.125.207.132 2.bp.blogspot.com
 74.125.207.132 3.bp.blogspot.com
 74.125.207.132 4.bp.blogspot.com
-210.242.125.98 play.google.com
+74.125.230.127 stun.l.google.com
+74.125.230.127 alt1.stun.l.google.com
+74.125.230.127 alt2.stun.l.google.com
+74.125.230.127 alt3.stun.l.google.com
+74.125.230.127 alt4.stun.l.google.com
+74.125.230.127 alt5.stun.l.google.com
 210.242.125.98 keep.google.com
 210.242.125.98 relay.google.com
 210.242.125.98 safebrowsing.cache.l.google.com
@@ -6788,6 +6788,38 @@ fe80::1%lo0	localhost
 127.0.0.1 na2m-pr.licenses.adobe.com
 127.0.0.1 practivate.adobe.com
 127.0.0.1 wip.adobe.com
+127.0.0.1 adobeereg.com
+127.0.0.1 www.adobeereg.com
+#Adobe(Mac)
+127.0.0.1 3dns-1.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-4.adobe.com
+127.0.0.1 3dns.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate.wip.adobe.com
+127.0.0.1 activate.wip1.adobe.com
+127.0.0.1 activate.wip2.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip4.adobe.com
+127.0.0.1 adobe-dns-1.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-4.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe.activate.com
+127.0.0.1 ereg.wip.adobe.com
+127.0.0.1 ereg.wip1.adobe.com
+127.0.0.1 ereg.wip2.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip4.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 wip1.adobe.com
+127.0.0.1 wip2.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip4.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
 #AnyDVD
 127.0.0.1 update.slysoft.com
 #Alcohol
