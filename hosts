@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201410241535
+;version=201410271618
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -52,12 +52,8 @@ fe80::1%lo0	localhost
 59.151.106.253 wiki.operachina.com
 59.151.106.253 www.operachina.com
 #GoogleCode
-203.208.46.200 haoutil.googlecode.com
 74.125.203.82 haoutil.googlecode.com
-173.194.72.82 haoutil.googlecode.com
 74.125.203.82 simpleu.googlecode.com
-173.194.72.82 simpleu.googlecode.com
-203.208.46.200 simpleu.googlecode.com
 #Soutong
 76.164.232.68 5isotoi5.org
 76.164.232.68 bbs.5isotoi5.org
@@ -6733,39 +6729,13 @@ fe80::1%lo0	localhost
 #Amazon AWS
 127.0.0.1 admarvel.s3.amazonaws.com
 127.0.0.1 adtago.s3.amazonaws.com
-127.0.0.1 alexa-sitestats.s3.amazonaws.com
-127.0.0.1 analytics-beacon-1354134853.us-east-1.elb.amazonaws.com
-127.0.0.1 biowebb-data.s3.amazonaws.com
-127.0.0.1 bro1.s3.amazonaws.com
-127.0.0.1 btrpreroll.s3.amazonaws.com
 127.0.0.1 campaign-tapad.s3.amazonaws.com
-127.0.0.1 click.s3.amazonaws.com
-127.0.0.1 clutchmag.s3.amazonaws.com
-127.0.0.1 droidresource.s3.amazonaws.com
-127.0.0.1 ecommstats.s3.amazonaws.com
-127.0.0.1 entrecard.s3.amazonaws.com
 127.0.0.1 exitsplash.s3.amazonaws.com
 127.0.0.1 html5adkit.plusmo.s3.amazonaws.com
 127.0.0.1 htmlads.s3.amazonaws.com
-127.0.0.1 inneractive-assets.s3.amazonaws.com
-127.0.0.1 mediatakeout.s3.amazonaws.com
-127.0.0.1 mobpopup-elb-1179019535.us-east-1.elb.amazonaws.com
 127.0.0.1 mondoads.s3.amazonaws.com
 127.0.0.1 ncads.s3.amazonaws.com
-127.0.0.1 phan-js.s3.amazonaws.com
-127.0.0.1 s3-1-w.amazonaws.com
-127.0.0.1 s3-1.amazonaws.com
-127.0.0.1 s3.amazonaws.com
-127.0.0.1 smaato-android-sdk.s3.amazonaws.com
-127.0.0.1 sp.ltassrv.com.s3.amazonaws.com
-127.0.0.1 strikeadcdn.s3.amazonaws.com
-127.0.0.1 tracking.opencandy.com.s3.amazonaws.com
-127.0.0.1 ttv-boxart.s3.amazonaws.com
-127.0.0.1 twittermoms.s3.amazonaws.com
 127.0.0.1 viewerstats.docstoc.com.s3.amazonaws.com
-127.0.0.1 vml1.s3.amazonaws.com
-127.0.0.1 webservice-lb-624573684.us-east-1.elb.amazonaws.com
-127.0.0.1 xmlconfig.ltassrv.com.s3.amazonaws.com
 127.0.0.1 yab-adimages.s3.amazonaws.com
 #Amoad
 127.0.0.1 d.amoad.com
