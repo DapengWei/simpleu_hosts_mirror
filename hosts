@@ -3,11 +3,11 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201411041332
+;version=20141107 947
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
-;Down=https://raw.githubusercontent.com/vokins/simpleu/master/hosts 
+;Down=http://simpleu.googlecode.com/svn/trunk/hosts 
 @SmartDirect
 #Localhost
 127.0.0.1	localhost
@@ -29,13 +29,7 @@ fe80::1%lo0	localhost
 127.0.0.1 advertising.apple.com
 127.0.0.1 iphone-services.apple.com
 127.0.0.1 iphonesubmissions.apple.com
-#iOS-BigBoss
-127.0.0.1 a.adorika.net
-127.0.0.1 a.ad-sys.com
-127.0.0.1 ads.glispa.com
-127.0.0.1 c.gltrkk.net
-127.0.0.1 hastrk3.com
-#iOS-Cydia
+#Cydia
 127.0.0.1 cydia.a3tweaks.com 
 127.0.0.1 jw97.com
 127.0.0.1 api.jw97.com
@@ -77,6 +71,12 @@ fe80::1%lo0	localhost
 74.125.21.141 feedly-beta.appspot.com
 141.101.127.247 s3.feedly.com
 141.101.127.247 www.feedly.com
+#Projecth
+106.186.31.197 projecth.us
+106.186.31.197 www.projecth.us
+106.186.31.197 forum.projecth.us
+106.186.31.197 repo.projecth.us
+66.155.11.238 ccfox.info
 #Flickr
 98.137.205.236 bf1.farm3.staticflickr.com
 68.142.227.95 bf1.farm5.staticflickr.com
@@ -124,36 +124,6 @@ fe80::1%lo0	localhost
 72.21.91.121 1.gravatar.com
 72.21.91.121 2.gravatar.com
 72.21.91.121 s.gravatar.com
-#Steam-A9vg
-184.50.93.235 forums.steampowered.com
-184.50.93.235 steamcommunity.com
-184.50.93.235 store.steampowered.com
-184.50.93.235 storefront.steampowered.com
-184.50.93.235 support.steampowered.com
-203.77.186.211 cdn.steamcommunity.com
-203.77.186.211 cdn.steampowered.com
-203.77.186.211 cdn.store.steampowered.com
-203.77.186.211 cloud-5.steampowered.com
-203.77.186.211 cloud-6.steampowered.com
-203.77.186.211 cloud-7.steampowered.com
-203.77.186.211 cloud-9.steampowered.com
-203.77.186.211 cloud.steampowered.com
-203.77.186.211 content1.steampowered.com
-203.77.186.211 media.steampowered.com
-203.77.186.211 valve.vo.llnwd.net
-205.185.216.10 cloud-2.steampowered.com
-205.185.216.10 content3.steampowered.com
-205.185.216.10 media2.steampowered.com
-54.230.233.123 content5.steampowered.com
-63.219.18.170 cdn.akamai.steamstatic.com
-63.219.18.170 cloud-3.steampowered.com
-63.219.18.170 content7.steampowered.com
-63.219.18.170 content8.steampowered.com
-63.219.18.170 media4.steampowered.com
-63.219.18.170 store.akamai.steamstatic.com
-63.219.18.170 store.valvesoftware.com
-68.232.45.131 content4.steampowered.com
-69.252.117.138 content6.steampowered.com
 #Steam
 23.72.226.247 store.steampowered.com
 23.72.226.247 storefront.steampowered.com
@@ -2484,14 +2454,9 @@ fe80::1%lo0	localhost
 208.117.255.184 r19---sn-vgqsem7l.c.youtube.com
 208.117.255.185 r20---sn-vgqsem7l.c.youtube.com
 ::1 localhost
-66.155.11.238 ccfox.info
 66.155.11.238 myimouto.wordpress.com
 192.0.72.3 myimouto.files.wordpress.com
 50.63.202.23 imouto.me
-106.186.31.197 projecth.us
-106.186.31.197 www.projecth.us
-106.186.31.197 forum.projecth.us
-106.186.31.197 repo.projecth.us
 66.155.11.243 wordpress.com
 68.232.44.111 s0.wp.com
 68.232.44.111 s1.wp.com
@@ -2644,7 +2609,6 @@ fe80::1%lo0	localhost
 31.13.70.56 scontent-d.xx.fbcdn.net
 31.13.70.56 scontent-e.xx.fbcdn.net
 42.99.128.138 fbcdn-profile-a.akamaihd.net
-69.147.76.173 flickr.com
 124.108.101.10 www.flickr.com
 121.101.144.116 up.flickr.com
 121.101.144.112 api.flickr.com
@@ -3887,7 +3851,6 @@ fe80::1%lo0	localhost
 107.20.134.222 dl.dropbox.com
 54.235.132.16 dl.dropboxusercontent.com
 107.20.134.222 dl-web.dropbox.com
-23.21.206.219 forums.dropbox.com
 108.160.165.211 notify1.dropbox.com
 108.160.165.211 notify2.dropbox.com
 108.160.165.211 notify3.dropbox.com
@@ -5130,7 +5093,6 @@ fe80::1%lo0	localhost
 127.0.0.1 inst.360safe.com
 127.0.0.1 sh.qihoo.com
 127.0.0.1 haostat.qihoo.com
-127.0.0.1 hao.360.cn
 127.0.0.1 s.360.cn
 127.0.0.1 tf.360.cn
 127.0.0.1 msg.shouji.360.cn
@@ -5978,7 +5940,6 @@ fe80::1%lo0	localhost
 127.0.0.1 wn.pos.baidu.com
 127.0.0.1 ecma.bdimg.com
 127.0.0.1 cpro.baidustatic.com
-127.0.0.1 cpro2.baidustatic.com
 127.0.0.1 dup.baidustatic.com
 127.0.0.1 ubmcmm.baidustatic.com
 #BaiduLink
@@ -6000,8 +5961,6 @@ fe80::1%lo0	localhost
 127.0.0.1 youxi.baidu.com
 127.0.0.1 update.123juzi.net
 127.0.0.1 dl.hao123.com
-127.0.0.1 www.hao123.com
-127.0.0.1 softdownload.hao123.com
 127.0.0.1 dl.m.duoku.com
 #Baidu
 127.0.0.1 a.baidu.com
@@ -6217,7 +6176,6 @@ fe80::1%lo0	localhost
 127.0.0.1 cnzztest.cnzz.com
 127.0.0.1 ei.cnzz.com
 127.0.0.1 icon.cnzz.com
-127.0.0.1 ca.cnzz.com
 127.0.0.1 jserr.cnzz.com
 127.0.0.1 pcookie.cnzz.com
 127.0.0.1 pw.cnzz.com
@@ -6225,7 +6183,6 @@ fe80::1%lo0	localhost
 127.0.0.1 rd.cnzz.com
 127.0.0.1 s11.cnzz.com
 127.0.0.1 s117.cnzz.com
-127.0.0.1 gzs20.cnzz.com
 127.0.0.1 s73.cnzz.com
 127.0.0.1 s87.cnzz.com
 127.0.0.1 s13.cnzz.com
@@ -6632,13 +6589,12 @@ fe80::1%lo0	localhost
 127.0.0.1 images.intellitxt.com
 #iPinYou
 127.0.0.1 cm.ipinyou.com
+127.0.0.1 file.ipinyou.com.cn
 127.0.0.1 ipinyou.com
 127.0.0.1 optimus.ipinyou.com
 127.0.0.1 s.ipinyou.com
-127.0.0.1 sdsp.ipinyou.com
 127.0.0.1 stats.ipinyou.com
 127.0.0.1 www.ipinyou.com
-127.0.0.1 file.ipinyou.com.cn
 127.0.0.1 www.ipinyou.com.cn
 #irs01
 127.0.0.1 bitauto.irs01.com
@@ -6861,7 +6817,6 @@ fe80::1%lo0	localhost
 127.0.0.1 a.tac.miaozhen.com
 127.0.0.1 a.tpg.cn.miaozhen.com
 127.0.0.1 baofeng.m.cn.miaozhen.com
-127.0.0.1 c.m.cn.miaozhen.com
 127.0.0.1 c.x.cn.miaozhen.com
 127.0.0.1 cm.cn.miaozhen.com
 127.0.0.1 d.miaozhen.com
@@ -6890,9 +6845,6 @@ fe80::1%lo0	localhost
 127.0.0.1 yktd.m.cn.miaozhen.com
 127.0.0.1 www.millwardbrownacsr.com
 #mlt01
-127.0.0.1 cmdy.mlt01.com
-127.0.0.1 cmhk.mlt01.com
-127.0.0.1 cmhz.mlt01.com
 127.0.0.1 mega.mlt01.com
 127.0.0.1 minisite.mlt01.com
 127.0.0.1 mlt01.com
@@ -7371,7 +7323,6 @@ fe80::1%lo0	localhost
 127.0.0.1 good.ta80.com
 127.0.0.1 js.ta80.com
 #Taobao
-127.0.0.1 www.tao123.com
 127.0.0.1 ai.m.taobao.com
 127.0.0.1 ai.taobao.com
 127.0.0.1 f.ai.taobao.com
@@ -8298,8 +8249,6 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.dzgg.com
 127.0.0.1 js.zsj18.com
 127.0.0.1 404.safedog.cn
-127.0.0.1 f1.p0y.cn
-127.0.0.1 t.luxiangxin.com
 @MobSoft Ads
 #Bitesms
 127.0.0.1 ads.bitesms.com
@@ -8788,28 +8737,25 @@ fe80::1%lo0	localhost
 127.0.0.1 recv-wd.gridsumdissector.com
 127.0.0.1 static.gridsumdissector.com
 #Youku
+127.0.0.1 cm.miaozhen.atm.youku.com
 127.0.0.1 ad.api.3g.youku.com
 127.0.0.1 ad.atm.youku.com
 127.0.0.1 api.gamex.mobile.youku.com
 127.0.0.1 atm.youku.com
 127.0.0.1 c.miaozhen.atm.youku.com
-127.0.0.1 cm.miaozhen.atm.youku.com
 127.0.0.1 count.atm.youku.com
+127.0.0.1 push.m.youku.com
 127.0.0.1 dl.m.youku.com
 127.0.0.1 e.stat.youku.com
 127.0.0.1 fvid.atm.youku.com
 127.0.0.1 html.atm.youku.com
+127.0.0.1 v2html.atm.youku.com
 127.0.0.1 lstat.youku.com
 127.0.0.1 mf.atm.youku.com
-127.0.0.1 p-log.ykimg.com
-127.0.0.1 passport-log.youku.com
-127.0.0.1 player.lstat.youku.com
-127.0.0.1 push.m.youku.com
 127.0.0.1 stat.youku.com
 127.0.0.1 static.atm.youku.com
 127.0.0.1 td.atm.youku.com
 127.0.0.1 test.gamex.mobile.youku.com
-127.0.0.1 v2html.atm.youku.com
 127.0.0.1 valb.atm.youku.com
 127.0.0.1 valc.atm.youku.com
 127.0.0.1 valf.atm.youku.com
@@ -8819,6 +8765,8 @@ fe80::1%lo0	localhost
 127.0.0.1 vhtml.youku.com
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
+127.0.0.1 passport-log.youku.com
+127.0.0.1 p-log.ykimg.com
 #YY
 127.0.0.1 a.vupload.duowan.com
 127.0.0.1 ad.yy.duowan.com
@@ -9167,16 +9115,17 @@ fe80::1%lo0	localhost
 127.0.0.1 log.realone.com
 #SopCast
 127.0.0.1 home.sopserv.com
+#Tvants
+127.0.0.1 ads.tvants.com
+127.0.0.1 cache2.tvants.com
 #TtkVod
 127.0.0.1 ad.ttkvod.com
-127.0.0.1 www.diupin.com
-127.0.0.1 ttash.com
 127.0.0.1 hao.kaikai001.com
 #UUSee
-127.0.0.1 g.uusee.com
+127.0.0.1 download.uusee.com
 127.0.0.1 pop.uusee.com
+127.0.0.1 g.uusee.com
 127.0.0.1 sa.uusee.com
-127.0.0.1 saw.uusee.com
 127.0.0.1 traffic.uusee.com
 127.0.0.1 uhms.uusee.com
 #Bitcomet
@@ -9888,6 +9837,7 @@ fe80::1%lo0	localhost
 @Sites-China/IT
 #Feng
 127.0.0.1 aoodoo.feng.com
+127.0.0.1 game.feng.com
 #MyDrivers
 127.0.0.1 count.mydrivers.com
 127.0.0.1 images.mydrivers.com
@@ -9999,7 +9949,6 @@ fe80::1%lo0	localhost
 #yNet
 127.0.0.1 log.ynet.com
 127.0.0.1 ranking.ynet.com
-
 #Common
 127.0.0.1 i.i.cbsi.com
 127.0.0.1 dw.cbsi.com
@@ -10133,12 +10082,6 @@ fe80::1%lo0	localhost
 127.0.0.1 tracker.zdnet.com.au
 @Sites Block
 #VirusDown
-127.0.0.1 www.zhentj.com
-127.0.0.1 www.1155.com
-127.0.0.1 www.126disk.com
-127.0.0.1 dl.yizhan123.com
-127.0.0.1 ie.114la.com
-127.0.0.1 www.admflt.com
 127.0.0.1 hot.pcyule.com
 127.0.0.1 www.pcyule.com
 127.0.0.1 taofen8.com
