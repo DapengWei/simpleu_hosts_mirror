@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201412071427
+;version=201412081555
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -8104,3 +8104,12 @@ s20-us2.ixquick.com s20-us2.ixquick.com
 117.18.232.191 telemetry-experiment.cdn.mozilla.net
 117.18.237.29 ocsp.digicert.com
 
+#iOS-Cydia
+127.0.0.1 a.adorika.net
+127.0.0.1 a.ad-sys.com
+127.0.0.1 ads.glispa.com
+127.0.0.1 c.gltrkk.net
+127.0.0.1 hastrk3.com
+127.0.0.1 cydia.a3tweaks.com 
+127.0.0.1 jw97.com
+127.0.0.1 api.jw97.com
