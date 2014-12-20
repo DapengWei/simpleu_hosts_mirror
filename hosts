@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201412181044
+;version=201412201641
 ;Contributors=KwokTree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;Description=Smart.Clean.Useful.Safe. Hosts-files.
 ;Vision=Better Internet Experience and Thanks 4 Every1.
@@ -1182,6 +1182,7 @@ content1.steampowered.com content1.steampowered.com
 74.125.70.141 feedly-beta.appspot.com
 74.125.70.141 lfe-alpo-gm.appspot.com
 74.125.70.141 m-dot-betaspike.appspot.com
+74.125.70.141 romerestclient.appspot.com 
 74.125.202.82 autoproxy-gfwlist.googlecode.com
 74.125.202.82 chromium.googlecode.com
 74.125.202.82 closure-library.googlecode.com
@@ -4232,6 +4233,12 @@ content1.steampowered.com content1.steampowered.com
 #Htwisdom
 127.0.0.1 a.htwisdom.com
 127.0.0.1 pub.htwisdom.com
+#i-mobile
+127.0.0.1 spcdnpc.i-mobile.co.jp
+127.0.0.1 spdeliver.i-mobile.co.jp
+127.0.0.1 spnet2-1.i-mobile.co.jp
+127.0.0.1 spnet33.i-mobile.co.jp
+127.0.0.1 ssp-bidder.i-mobile.co.jp
 #ijinshan
 127.0.0.1 game.duba.com
 127.0.0.1 js.stat.ijinshan.com
@@ -7993,6 +8000,9 @@ content1.steampowered.com content1.steampowered.com
 127.0.0.1 tracker.zdnet.com.au
 @Sites Block
 #VirusDown
+127.0.0.1 www.5fjg5j5.com
+127.0.0.1 i.getfreesoft.net
+127.0.0.1 inst.getfreesoft.net
 127.0.0.1 down.yxdfc.com
 127.0.0.1 kan.douww.com
 127.0.0.1 statistics.sanlin8.com
@@ -8288,6 +8298,18 @@ content1.steampowered.com content1.steampowered.com
 127.0.0.1 pv.bbapp.net
 127.0.0.1 www.063.com
 @Float Ads
+127.0.0.1 c.okm918.com
+127.0.0.1 v.6dvip.com
+127.0.0.1 16.jdlhg.com
+127.0.0.1 1app.blob.core.windows.net
+127.0.0.1 creative.ad134m.com
+127.0.0.1 s.ad135m.com
+127.0.0.1 www.kittopsoftwrr.com
+127.0.0.1 youtrack.co
+127.0.0.1 code.admin6.com
+127.0.0.1 vip.yule8.net
+127.0.0.1 cao.tc600.com
+127.0.0.1 vip.jisucn.com
 127.0.0.1 sp3.yousee.com
 127.0.0.1 fengche.cpv6.com
 127.0.0.1 w.ran10.com.cn
