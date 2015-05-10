@@ -10,8 +10,8 @@ print "downloading complete"
 
 print "begin to modify hosts"
 with open("hosts", "a") as hosts_file_org:
-	with open("hosts.add", "r") as hosts_file_add:
-		hosts_add_file = hosts_file_add.read()
-	hosts_file_org.write(hosts_add_file)
+    with open("hosts.add", "r") as hosts_file_add:
+        hosts_add_file = hosts_file_add.read()
+    hosts_file_org.write(hosts_add_file)
 
 print "modify hosts complete"
